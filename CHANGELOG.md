@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/CUexter/next-template/compare/v1.2.0...v1.2.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* typo in test.yml ([f0ed238](https://github.com/CUexter/next-template/commit/f0ed238423cb574f654c437baa1e4e3abc2aaac6))
+
 # [1.2.0](https://github.com/CUexter/next-template/compare/v1.1.2...v1.2.0) (2023-01-23)
 
 ### Bug Fixes
