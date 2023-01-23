@@ -1,12 +1,14 @@
 name: Release
+
 on:
   push:
     branches:
       - mainjobs:
-  release:    
+
+  release:
     name: release
     runs-on: ubuntu-latest
-      steps:
+    steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         name: Install pnpm
