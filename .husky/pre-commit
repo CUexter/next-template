@@ -1,5 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm exec lint-staged
-pnpm test
+mkdir -p husky-logs
+
+pnpm exec lint-staged >>husky-logs/eslint.log
+pnpm test 2>>husky-logs/jest.err.log 1>>husky-logs/jest.log
