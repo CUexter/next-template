@@ -1,7 +1,12 @@
 {
   "name": "my-nextjs-template",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +14,8 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "prepare": "husky install",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@next/font": "13.1.4",
@@ -33,11 +39,19 @@
     "prettier": "^2.8.3",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.4",
-    "stylelint-config-standard": "^29.0.0"
+    "stylelint-config-standard": "^29.0.0",
+    "semantic-release": "^20.0.3"
   },
   "lint-staged": {
     "*.{js,ts,tsx,jsx}": "eslint --cache --fix",
     "*.{css,scss}": "stylelint --fix",
     "*": "prettier --write --ignore-unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CUexter/next-template.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
