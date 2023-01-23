@@ -20,6 +20,7 @@ specifiers:
   eslint-config-next: 13.1.4
   eslint-config-prettier: ^8.6.0
   husky: ^8.0.3
+  is-ci: ^3.0.1
   jest: ^29.3.1
   jest-environment-jsdom: ^29.3.1
   lint-staged: ^13.1.0
@@ -59,6 +60,7 @@ devDependencies:
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   eslint-config-prettier: 8.6.0_eslint@8.32.0
   husky: 8.0.3
+  is-ci: 3.0.1
   jest: 29.3.1_@types+node@18.11.18
   jest-environment-jsdom: 29.3.1
   lint-staged: 13.1.0
@@ -3635,6 +3637,13 @@ packages:
   /is-callable/1.2.7:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
+
+  /is-ci/3.0.1:
+    resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
+    hasBin: true
+    dependencies:
+      ci-info: 3.7.1
+    dev: true
 
   /is-core-module/2.11.0:
     resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}
