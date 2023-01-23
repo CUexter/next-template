@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-git push >push.log
+git push 2>husky-logs/push.err.log 1>husky-logs/push.log
