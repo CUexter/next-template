@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/CUexter/next-template/compare/v1.1.1...v1.1.2) (2023-01-23)
+
+
+### Bug Fixes
+
+* correct permission for semantic-release ([bde6282](https://github.com/CUexter/next-template/commit/bde628206602d252fb2af35270b6e7f0032f4a46))
+* **githooks:** broken commit-msg ([d8faa41](https://github.com/CUexter/next-template/commit/d8faa41fc2d2f411f9ea2fed8403a3edd5b7aed4))
+
 ## [1.1.1](https://github.com/CUexter/next-template/compare/v1.1.0...v1.1.1) (2023-01-23)
 
 ### Bug Fixes
