@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "prepare": "husky install",
-    "test": "husky install"
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@next/font": "13.1.4",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.29.2",
+    "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
