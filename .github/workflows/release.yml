@@ -9,6 +9,9 @@ jobs:
   release:
     name: release
     runs-on: ubuntu-latest
+    permissions:
+      # only required for workflows in private repositories
+      contents: write
     steps:
       - uses: actions/checkout@v3
 
