@@ -1,3 +1,20 @@
+# [1.2.0](https://github.com/CUexter/next-template/compare/v1.1.2...v1.2.0) (2023-01-23)
+
+
+### Bug Fixes
+
+* commitlint not logged in githooks ([66c710a](https://github.com/CUexter/next-template/commit/66c710a08991404c208246e596c72d9af07c540a))
+
+
+### Features
+
+* adding e2e testing ([a86d297](https://github.com/CUexter/next-template/commit/a86d2977800a5456d73f59580b33e688c6e233f0))
+* auto push after git commit ([1a2f50b](https://github.com/CUexter/next-template/commit/1a2f50bd38833dcdc77a8495de9721b6a6064634))
+* **build:** automated build ([f264f2b](https://github.com/CUexter/next-template/commit/f264f2b59abfddc830541d95c157dd00b314a648))
+* **githooks:** push log in husky ([4fcb36e](https://github.com/CUexter/next-template/commit/4fcb36ebe738db95917b6d9fb6d1d7b8e8987fe1))
+* logging husky output ([ab3b83e](https://github.com/CUexter/next-template/commit/ab3b83eb55bcd036ff4488b568501e83a83dbc0d))
+* release now trigger after test ([764c25f](https://github.com/CUexter/next-template/commit/764c25f2b9326de4988830ae735a18e5fde986eb))
+
 ## [1.1.2](https://github.com/CUexter/next-template/compare/v1.1.1...v1.1.2) (2023-01-23)
 
 ### Bug Fixes
