@@ -3,8 +3,9 @@ name: Release
 on:
   push:
     branches:
-      - mainjobs:
+      - main
 
+jobs:
   release:
     name: release
     runs-on: ubuntu-latest
