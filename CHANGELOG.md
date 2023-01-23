@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/CUexter/next-template/compare/v1.1.0...v1.1.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* adding metadata read permission for release action ([67ef9a5](https://github.com/CUexter/next-template/commit/67ef9a54b9bdc5b562ec95fa2f564707b0c6c24f))
+* give all permission to release action ([39ca43d](https://github.com/CUexter/next-template/commit/39ca43decaae81f706cf7aaabb83de582fe99eeb))
+
 # [1.1.0](https://github.com/CUexter/next-template/compare/v1.0.0...v1.1.0) (2023-01-23)
 
 
