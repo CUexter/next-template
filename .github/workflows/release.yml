@@ -9,7 +9,11 @@ jobs:
   release:
     name: release
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      # only required for workflows in private repositories
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v3
 
