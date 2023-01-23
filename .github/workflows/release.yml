@@ -12,6 +12,7 @@ jobs:
     permissions:
       # only required for workflows in private repositories
       contents: write
+      metadata: read
     steps:
       - uses: actions/checkout@v3
 
