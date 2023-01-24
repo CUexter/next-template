@@ -8,8 +8,8 @@ on:
     branches: [main]
 
 jobs:
-  lint:
-    name: lint and format
+  build:
+    name: build and upload with cache
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     permissions:
@@ -65,3 +65,11 @@ jobs:
 
       - name: Build
         run: pnpm run build
+
+      - name: tarball
+        run: tar cvzf build.tar.gz .next
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build.tar.gz

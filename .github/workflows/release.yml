@@ -50,6 +50,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - uses: actions/download-artifact@v3
+        with:
+          name: build
+
       - run: pnpm exec semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
