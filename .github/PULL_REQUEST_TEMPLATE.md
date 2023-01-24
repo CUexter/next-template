@@ -6,10 +6,6 @@ Implements/Fixes(DELETE THE WRONG ONE) #
 
 **Which part of the project does this PR belongs to ?**
 
-- [ ] Frontend
-- [ ] Backend
-- [ ] Other
-
 **What is the current behavior ?**
 
 **Does this PR introduce a breaking change ?**

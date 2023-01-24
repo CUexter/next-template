@@ -8,8 +8,4 @@ labels: "i: enhancement"
 
 **Which part of the project does this belongs to ?**
 
-- [ ] Backend
-- [ ] Frontend
-- [ ] Other
-
 **Description**

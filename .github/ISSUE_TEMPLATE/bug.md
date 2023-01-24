@@ -7,10 +7,6 @@ about: Create a report of bugs
 
 **Which part of the project does this belongs to ?**
 
-- [ ] Backend
-- [ ] Frontend
-- [ ] Other
-
 #### Issue Description
 
 - When Issue Happens
