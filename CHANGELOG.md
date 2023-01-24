@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/CUexter/next-template/compare/v1.2.1...v1.3.0) (2023-01-24)
+
+
+### Bug Fixes
+
+* change permission to write-all temporarily ([b434a3e](https://github.com/CUexter/next-template/commit/b434a3ec2647572067175079b2dd38c07aa9e740))
+* e2e run mutliple times ([8e10a9d](https://github.com/CUexter/next-template/commit/8e10a9df1aca6b1fc93173aa8b560acd598b524f))
+* let playwright to pass with no test ([316d45a](https://github.com/CUexter/next-template/commit/316d45ad346621ee80f1bfc1acd4a01b0083e820))
+* release download artifacts from build workflow ([55ef6a3](https://github.com/CUexter/next-template/commit/55ef6a33e7aa1785829134b5ba8b0259453706b2))
+* searching artifact when releasing ([8d622e0](https://github.com/CUexter/next-template/commit/8d622e02041dd691d7d5c36079b638c3d0919241))
+* workflow is run multiple times ([d2d2a63](https://github.com/CUexter/next-template/commit/d2d2a63c8a56eed3b81435bc6be128fdc854b19a))
+
+
+### Features
+
+* adding build files to release ([18b81d8](https://github.com/CUexter/next-template/commit/18b81d8a8f312445fec3f1b951f479c6855d2f93))
+
 ## [1.2.1](https://github.com/CUexter/next-template/compare/v1.2.0...v1.2.1) (2023-01-23)
 
 ### Bug Fixes
