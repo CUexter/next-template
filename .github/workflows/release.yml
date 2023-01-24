@@ -53,11 +53,10 @@ jobs:
           github_token: ${{secrets.GITHUB_TOKEN}}
           workflow: build.yml
           workflow_conclusion: success
-          event: push
           name: build
           repo: ${{ github.repository }}
           check_artifacts: false
-          search_artifacts: false
+          search_artifacts: true
           skip_unpack: false
           if_no_artifact_found: fail
 
