@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/CUexter/next-template/compare/v1.3.0...v2.0.0) (2023-01-24)
+
+
+* feat(git)!: remove auto push hook ([fbe108e](https://github.com/CUexter/next-template/commit/fbe108e02572bee652362b822ed342ad3a78fdca))
+
+
+### Features
+
+* added tailwind ([4e6eba3](https://github.com/CUexter/next-template/commit/4e6eba3510e739a2284b0a52fcc8b48547892ec7))
+
+
+### BREAKING CHANGES
+
+* auto push sucks anyway
+
 # [1.3.0](https://github.com/CUexter/next-template/compare/v1.2.1...v1.3.0) (2023-01-24)
 
 ### Bug Fixes
