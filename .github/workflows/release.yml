@@ -13,11 +13,7 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    permissions:
-      # only required for workflows in private repositories
-      contents: write
-      issues: write
-      pull-requests: write
+    permissions: write-all
     steps:
       - uses: actions/checkout@v3
 
