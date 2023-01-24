@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/CUexter/next-template/compare/v2.0.1...v3.0.0) (2023-01-24)
+
+
+* feat(jest)!: added jest test ([32809ff](https://github.com/CUexter/next-template/commit/32809ffd1de9488367fe0813b1c71840b03ae362))
+
+
+### BREAKING CHANGES
+
+* jest now doesn't pass with no tests
+
 ## [2.0.1](https://github.com/CUexter/next-template/compare/v2.0.0...v2.0.1) (2023-01-24)
 
 ### Bug Fixes
