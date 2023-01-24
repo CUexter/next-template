@@ -2,7 +2,7 @@ name: Release
 
 on:
   workflow_run:
-    workflows: [Lint, Test, Build, E2E]
+    workflows: [Build]
     types:
       - completed
     branches:
@@ -57,9 +57,6 @@ jobs:
           github_token: ${{secrets.GITHUB_TOKEN}}
           workflow: build.yml
           workflow_conclusion: success
-          pr: ${{github.event.pull_request.number}}
-          commit: ${{github.event.pull_request.head.sha}}
-          branch: main
           event: push
           name: build
           repo: ${{ github.repository }}
