@@ -2,7 +2,7 @@ name: E2E
 
 on:
   workflow_run:
-    workflows: [Lint, Test]
+    workflows: Test
     types:
       - completed
 jobs:
