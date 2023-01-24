@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "prepare": "is-ci || husky install",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test --pass-with-no-tests",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "semantic-release": "semantic-release"
