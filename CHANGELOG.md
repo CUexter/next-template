@@ -1,9 +1,8 @@
 ## [2.0.1](https://github.com/CUexter/next-template/compare/v2.0.0...v2.0.1) (2023-01-24)
 
-
 ### Bug Fixes
 
-* jest should ignore playwright tests ([18bedd5](https://github.com/CUexter/next-template/commit/18bedd593f54ecc401f5861090015e55617706b7))
+- jest should ignore playwright tests ([18bedd5](https://github.com/CUexter/next-template/commit/18bedd593f54ecc401f5861090015e55617706b7))
 
 # [2.0.0](https://github.com/CUexter/next-template/compare/v1.3.0...v2.0.0) (2023-01-24)
 
