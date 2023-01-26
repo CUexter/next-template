@@ -1,4 +1,23 @@
-# Next.js template
+# <p align="center"> Next.js + Pocketbase + React Query template</p>
+
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+
+## Technologies used
+
+- ⚛️ [React 18](https://reactjs.org/)
+- 💎 [Typescript](https://www.typescriptlang.org/)
+- [React Query](https://react-query-v3.tanstack.com/)
+- [Playwright](https://playwright.dev)
+- [Jest](https://jestjs.io)
+- [React Testing Library](https://testing-library.com/)
+- [NEXT.js](https://nextjs.org)
+- [Pocketbase](https://pocketbase.io)
+- [TailwindCSS](https://tailwindcss.com)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Prettier](https://prettier.io/), [Stylelint](https://stylelint.io/), [ESLint](https://eslint.org/)
+- [Github Actions](https://github.com/features/actions)
+- [Semantic Release](https://github.com/features/actions)
+- [Husky](https://typicode.github.io/husky/#/) & [Lint Staged](https://github.com/okonet/lint-staged)
 
 For this project we are going to use [pnpm](https://pnpm.io)
 
@@ -14,6 +33,14 @@ npm i -g pnpm
 pnpm i
 ```
 
+### Installing Pocketbase
+
+Suppose you are running linux or windows subsystem for linux
+
+please install unzip and wget to automate the installation of pocketbase by running `pb-setup.sh`
+
+For users of other operating systems, please extract the pocketbase zip files in a directory called `pb`
+
 ## Getting Started
 
 First, run the development server:
@@ -22,7 +49,9 @@ First, run the development server:
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the next.js page.
+
+Open [http://localhost:8090/\_](http://localhost:8090/_) with your browser to see the pocketbase admin UI.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
@@ -69,3 +98,25 @@ To set up playwright on arch linux:
 yay -S libffi7 enchant1.6 icu66 libwebp052
 sudo ln -s /usr/lib/libpcre.so /usr/lib/libpcre.so.3
 ```
+
+## Contributing
+
+### Commit Message
+
+To commit please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) rules
+
+This will provide a prompt to help you write good commit messages for us to handle. This will automatically run the git commit command for staged files.
+
+#### IMPORTANT: ALL MESSAGE SHOULD BE LOWERCASE
+
+### VSCode
+
+If you want to commit in VSCode I highly recommend using this extension: [Conventional Commits](https://marketplace.visualstudio.com/items?itemname=vivaxy.vscode-conventional-commits)
+
+You can access VSCode Conventional Commits in two ways:
+
+1. `Command + Shift + P` or `Ctrl + Shift + P`, enter `Conventional Commits`,
+   and press `Enter`.
+2. Click the icon on the Source Control menu. See the image below.
+
+![Icon on the Source Control menu](https://github.com/vivaxy/vscode-conventional-commits/raw/master/assets/docs/icon-on-the-source-control-menu.png)
