@@ -1,42 +1,36 @@
 # [3.0.0](https://github.com/CUexter/next-template/compare/v2.0.1...v3.0.0) (2023-01-26)
 
-
-* feat(jest)!: added jest test ([32809ff](https://github.com/CUexter/next-template/commit/32809ffd1de9488367fe0813b1c71840b03ae362))
-
+- feat(jest)!: added jest test ([32809ff](https://github.com/CUexter/next-template/commit/32809ffd1de9488367fe0813b1c71840b03ae362))
 
 ### Features
 
-* adding post-merge hook to install dependencies ([2602b4f](https://github.com/CUexter/next-template/commit/2602b4fffb7c63713ee9ab32e31ecb89294ec828))
-* adding react-query and pocketbase-sdk ([5866b26](https://github.com/CUexter/next-template/commit/5866b266766a8a67467fe37e83891e560f4bd0e9))
-* adding stylelint-config-recommendation ([aa927e0](https://github.com/CUexter/next-template/commit/aa927e0de439616998fc7ea8f921c47938865084))
-* download pocketbase with prepare ([db3392d](https://github.com/CUexter/next-template/commit/db3392d06bb6930ab2c006d3447319b890be0d07))
-* optimizing github action ([6c6d0de](https://github.com/CUexter/next-template/commit/6c6d0de393a6c4101322c7b8c383ce9c9c3a744f))
-* release workflow can now run manually ([106bb4b](https://github.com/CUexter/next-template/commit/106bb4b510c65ed0091902079d3b93a26d5ed62a))
-
+- adding post-merge hook to install dependencies ([2602b4f](https://github.com/CUexter/next-template/commit/2602b4fffb7c63713ee9ab32e31ecb89294ec828))
+- adding react-query and pocketbase-sdk ([5866b26](https://github.com/CUexter/next-template/commit/5866b266766a8a67467fe37e83891e560f4bd0e9))
+- adding stylelint-config-recommendation ([aa927e0](https://github.com/CUexter/next-template/commit/aa927e0de439616998fc7ea8f921c47938865084))
+- download pocketbase with prepare ([db3392d](https://github.com/CUexter/next-template/commit/db3392d06bb6930ab2c006d3447319b890be0d07))
+- optimizing github action ([6c6d0de](https://github.com/CUexter/next-template/commit/6c6d0de393a6c4101322c7b8c383ce9c9c3a744f))
+- release workflow can now run manually ([106bb4b](https://github.com/CUexter/next-template/commit/106bb4b510c65ed0091902079d3b93a26d5ed62a))
 
 ### BREAKING CHANGES
 
-* jest now doesn't pass with no tests
+- jest now doesn't pass with no tests
 
 # [3.0.0](https://github.com/CUexter/next-template/compare/v2.0.1...v3.0.0) (2023-01-26)
 
-
-* feat(jest)!: added jest test ([32809ff](https://github.com/CUexter/next-template/commit/32809ffd1de9488367fe0813b1c71840b03ae362))
-
+- feat(jest)!: added jest test ([32809ff](https://github.com/CUexter/next-template/commit/32809ffd1de9488367fe0813b1c71840b03ae362))
 
 ### Features
 
-* adding post-merge hook to install dependencies ([2602b4f](https://github.com/CUexter/next-template/commit/2602b4fffb7c63713ee9ab32e31ecb89294ec828))
-* adding react-query and pocketbase-sdk ([5866b26](https://github.com/CUexter/next-template/commit/5866b266766a8a67467fe37e83891e560f4bd0e9))
-* adding stylelint-config-recommendation ([aa927e0](https://github.com/CUexter/next-template/commit/aa927e0de439616998fc7ea8f921c47938865084))
-* download pocketbase with prepare ([db3392d](https://github.com/CUexter/next-template/commit/db3392d06bb6930ab2c006d3447319b890be0d07))
-* optimizing github action ([6c6d0de](https://github.com/CUexter/next-template/commit/6c6d0de393a6c4101322c7b8c383ce9c9c3a744f))
-* release workflow can now run manually ([106bb4b](https://github.com/CUexter/next-template/commit/106bb4b510c65ed0091902079d3b93a26d5ed62a))
-
+- adding post-merge hook to install dependencies ([2602b4f](https://github.com/CUexter/next-template/commit/2602b4fffb7c63713ee9ab32e31ecb89294ec828))
+- adding react-query and pocketbase-sdk ([5866b26](https://github.com/CUexter/next-template/commit/5866b266766a8a67467fe37e83891e560f4bd0e9))
+- adding stylelint-config-recommendation ([aa927e0](https://github.com/CUexter/next-template/commit/aa927e0de439616998fc7ea8f921c47938865084))
+- download pocketbase with prepare ([db3392d](https://github.com/CUexter/next-template/commit/db3392d06bb6930ab2c006d3447319b890be0d07))
+- optimizing github action ([6c6d0de](https://github.com/CUexter/next-template/commit/6c6d0de393a6c4101322c7b8c383ce9c9c3a744f))
+- release workflow can now run manually ([106bb4b](https://github.com/CUexter/next-template/commit/106bb4b510c65ed0091902079d3b93a26d5ed62a))
 
 ### BREAKING CHANGES
 
-* jest now doesn't pass with no tests
+- jest now doesn't pass with no tests
 
 # [3.0.0](https://github.com/CUexter/next-template/compare/v2.0.1...v3.0.0) (2023-01-24)
 
