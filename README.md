@@ -4,6 +4,12 @@
 
 ## To use
 
+Install [degit](https://github.com/Rich-Harris/degit)
+
+```bash
+npm i -g degit
+```
+
 ```bash
 degit git@github.com:CUexter/next-template.git
 rm CHANGELOG.md
