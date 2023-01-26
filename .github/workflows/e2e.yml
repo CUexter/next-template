@@ -50,6 +50,9 @@ jobs:
       - name: Install Playwright
         run: pnpm exec playwright install --with-deps
 
+      - name: Download PocketBase
+        run: ./pb-setup.sh
+
       - name: Run your tests
         run: pnpm run test:e2e
 
