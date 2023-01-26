@@ -2,6 +2,15 @@
 
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
+## To use
+
+```bash
+degit git@github.com:CUexter/next-template.git
+rm CHANGELOG.md
+```
+
+and edit the `package.json` to change the package name and the version number to `0.0.0`
+
 ## Technologies used
 
 - ⚛️ [React 18](https://reactjs.org/)
@@ -35,9 +44,9 @@ pnpm i
 
 ### Installing Pocketbase
 
-Suppose you are running linux or windows subsystem for linux
+Suppose you are running Linux or Windows subsystem for Linux(WSL)
 
-please install unzip and wget to automate the installation of pocketbase by running `pb-setup.sh`
+Install `unzip` and `wget` to automate the installation of pocketbase by running `pb-setup.sh`
 
 For users of other operating systems, please extract the pocketbase zip files in a directory called `pb`
 
