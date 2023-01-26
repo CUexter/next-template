@@ -1,18 +1,9 @@
-name: Test
+name: Prettier
 
-on:
-  push:
-    paths-ignore:
-      - "**.md"
-      - "**.yml"
-  pull_request:
-    paths-ignore:
-      - "**.md"
-      - "**.yml"
-
+on: [push, pull_request]
 jobs:
-  test:
-    name: Do testing
+  prettier:
+    name: prettier
     runs-on: ubuntu-latest
     permissions:
       # only required for workflows in private repositories
@@ -52,5 +43,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run tests
-        run: pnpm run test
+      - name: Run Prettier to format
+        run: pnpm exec prettier --write --ignore-unknown .
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "style: :robot: prettier code by github action"

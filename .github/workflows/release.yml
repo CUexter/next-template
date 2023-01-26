@@ -63,3 +63,10 @@ jobs:
       - run: pnpm exec semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Prettier to format
+        run: pnpm exec prettier --write --ignore-unknown CHANGELOG.md
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "style(changelog): :robot: Prettier CHANGELOG.md"
