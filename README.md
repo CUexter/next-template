@@ -11,7 +11,7 @@ npm i -g degit
 ```
 
 ```bash
-degit git@github.com:CUexter/next-template.git
+degit git@github.com:CUexter/next-template.git#mantine
 rm CHANGELOG.md
 ```
 
@@ -27,7 +27,7 @@ and edit the `package.json` to change the package name and the version number to
 - [React Testing Library](https://testing-library.com/)
 - [NEXT.js](https://nextjs.org)
 - [Pocketbase](https://pocketbase.io)
-- [TailwindCSS](https://tailwindcss.com)
+- [Mantine](https://mantine.dev)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Prettier](https://prettier.io/), [Stylelint](https://stylelint.io/), [ESLint](https://eslint.org/)
 - [Github Actions](https://github.com/features/actions)
