@@ -1,14 +1,12 @@
 # [1.1.0](https://github.com/CUexter/next-template/compare/v1.0.0...v1.1.0) (2023-01-27)
 
-
 ### Bug Fixes
 
-* missing dependencies to run playwright ([a6b35a1](https://github.com/CUexter/next-template/commit/a6b35a1c426bc9314ac83472cd8a6c1d9f77f343))
-
+- missing dependencies to run playwright ([a6b35a1](https://github.com/CUexter/next-template/commit/a6b35a1c426bc9314ac83472cd8a6c1d9f77f343))
 
 ### Features
 
-* **git:** auto install peers ([71788c5](https://github.com/CUexter/next-template/commit/71788c59da0e98a1a30bb582ceed587a26e13f9b))
+- **git:** auto install peers ([71788c5](https://github.com/CUexter/next-template/commit/71788c59da0e98a1a30bb582ceed587a26e13f9b))
 
 # 1.0.0 (2023-01-26)
 
