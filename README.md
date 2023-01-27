@@ -26,6 +26,7 @@ and edit the `package.json` to change the package name and the version number to
 - [Jest](https://jestjs.io)
 - [React Testing Library](https://testing-library.com/)
 - [NEXT.js](https://nextjs.org)
+- [Storybook.js](https://storybook.js.org)
 - [Pocketbase](https://pocketbase.io)
 - [TailwindCSS](https://tailwindcss.com)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
