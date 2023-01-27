@@ -1,9 +1,8 @@
 # [1.2.0](https://github.com/CUexter/next-template/compare/v1.1.0...v1.2.0) (2023-01-27)
 
-
 ### Features
 
-* adding storybook ([c9b0274](https://github.com/CUexter/next-template/commit/c9b0274f13e52409f63205dc5c08b939532e434d))
+- adding storybook ([c9b0274](https://github.com/CUexter/next-template/commit/c9b0274f13e52409f63205dc5c08b939532e434d))
 
 # [1.1.0](https://github.com/CUexter/next-template/compare/v1.0.0...v1.1.0) (2023-01-27)
 
