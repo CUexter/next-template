@@ -1,9 +1,8 @@
 # [1.3.0](https://github.com/CUexter/next-template/compare/v1.2.0...v1.3.0) (2023-01-27)
 
-
 ### Features
 
-* adding more npm script ([627915c](https://github.com/CUexter/next-template/commit/627915c237614fab2a8bee46b5b28fe7c4bf8162))
+- adding more npm script ([627915c](https://github.com/CUexter/next-template/commit/627915c237614fab2a8bee46b5b28fe7c4bf8162))
 
 # [1.2.0](https://github.com/CUexter/next-template/compare/v1.1.0...v1.2.0) (2023-01-27)
 
