@@ -1,4 +1,6 @@
 import "./globals.css";
+import RootStyleRegistry from "./emotion";
+import Appshell from "../components/appshell";
 
 export default function RootLayout({
   children,
@@ -12,7 +14,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <RootStyleRegistry>
+        <Appshell>{children}</Appshell>
+      </RootStyleRegistry>
     </html>
   );
 }
